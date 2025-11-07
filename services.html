@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - Салон красоты "Элегант"</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Элегант</h2>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="about.html" class="nav-link">О нас</a>
+                    <a href="services.html" class="nav-link">Услуги</a>
+                    <a href="booking.html" class="nav-link">Запись на услугу</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title" id="main-title">Наши услуги</h1>
+            
+            <!-- Быстрая навигация по категориям -->
+            <div class="card" style="margin-bottom: 2rem; text-align: center;">
+                <h3>Быстрый переход к категориям:</h3>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
+                    <a href="#hair-services" class="btn btn-outline">💇 Парикмахерские</a>
+                    <a href="#nail-services" class="btn btn-outline">💅 Ногтевой сервис</a>
+                    <a href="#cosmetology-services" class="btn btn-outline">✨ Косметология</a>
+                    <a href="#brows-lashes-services" class="btn btn-outline">✏️ Брови и ресницы</a>
+                </div>
+            </div>
+            
+            <!-- Баннер услуг -->
+            <div class="image-container">
+                <img src="images/services-banner.jpg" alt="Все услуги нашего салона" class="responsive-image">
+            </div>
+            
+            <!-- Парикмахерские услуги -->
+            <div class="service-category" id="hair-services">
+                <h2>💇 Парикмахерские услуги</h2>
+                
+                <div class="service-item" id="haircut-service">
+                    <div class="service-header">
+                        <img src="images/haircut-service.jpg" alt="Женская стрижка" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Женская стрижка</h3>
+                            <p>Профессиональная стрижка с учетом особенностей вашего типа лица и волос</p>
+                            <span class="service-duration">⏱ 1.5 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1500 ₽</span>
+                        <a href="booking.html?service=haircut" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+                
+                <div class="service-item" id="styling-service">
+                    <div class="service-header">
+                        <img src="images/hair-styling.jpg" alt="Стрижка и укладка" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Стрижка и укладка</h3>
+                            <p>Стрижка с последующей укладкой горячими инструментами</p>
+                            <span class="service-duration">⏱ 2 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">2000 ₽</span>
+                        <a href="booking.html?service=styling" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+                
+                <div class="service-item" id="coloring-service">
+                    <div class="service-header">
+                        <img src="images/hair-coloring.jpg" alt="Окрашивание волос" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Окрашивание волос</h3>
+                            <p>Профессиональное окрашивание с подбором идеального оттенка</p>
+                            <span class="service-duration">⏱ 3 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">3500 ₽</span>
+                        <a href="booking.html?service=coloring" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="treatment-service">
+                    <div class="service-header">
+                        <img src="images/hair-treatment.jpg" alt="Лечение волос" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Лечение и восстановление волос</h3>
+                            <p>Профессиональные уходовые процедуры для поврежденных волос</p>
+                            <span class="service-duration">⏱ 1 час</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1200 ₽</span>
+                        <a href="booking.html?service=treatment" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="mens-haircut">
+                    <div class="service-header">
+                        <img src="images/mens-haircut.jpg" alt="Мужская стрижка" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Мужская стрижка</h3>
+                            <p>Стильная и аккуратная стрижка с учетом особенностей мужских волос</p>
+                            <span class="service-duration">⏱ 1 час</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1000 ₽</span>
+                        <a href="booking.html?service=mens-haircut" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ногтевой сервис -->
+            <div class="service-category" id="nail-services">
+                <h2>💅 Ногтевой сервис</h2>
+                
+                <div class="service-item" id="manicure-service">
+                    <div class="service-header">
+                        <img src="images/manicure-detailed.jpg" alt="Маникюр" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Маникюр + покрытие</h3>
+                            <p>Аппаратный маникюр с покрытием гель-лаком</p>
+                            <span class="service-duration">⏱ 1.5 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1800 ₽</span>
+                        <a href="booking.html?service=manicure" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+                
+                <div class="service-item" id="pedicure-service">
+                    <div class="service-header">
+                        <img src="images/pedicure-service.jpg" alt="Педикюр" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Педикюр + покрытие</h3>
+                            <p>Комплексный уход за стопами и ногтями с покрытием</p>
+                            <span class="service-duration">⏱ 2 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">2200 ₽</span>
+                        <a href="booking.html?service=pedicure" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="nails-extension">
+                    <div class="service-header">
+                        <img src="images/nails-extension.jpg" alt="Наращивание ногтей" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Наращивание ногтей</h3>
+                            <p>Наращивание гелем или акрилом с дизайном</p>
+                            <span class="service-duration">⏱ 2.5 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">3000 ₽</span>
+                        <a href="booking.html?service=nails-extension" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="nails-correction">
+                    <div class="service-header">
+                        <img src="images/nails-correction.jpg" alt="Коррекция ногтей" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Коррекция нарощенных ногтей</h3>
+                            <p>Профессиональная коррекция с сохранением дизайна</p>
+                            <span class="service-duration">⏱ 1.5 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1800 ₽</span>
+                        <a href="booking.html?service=nails-correction" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Косметология -->
+            <div class="service-category" id="cosmetology-services">
+                <h2>✨ Косметология</h2>
+                
+                <div class="service-item" id="facial-service">
+                    <div class="service-header">
+                        <img src="images/facial-care.jpg" alt="Чистка лица" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Чистка лица</h3>
+                            <p>Профессиональная чистка лица с последующим уходом</p>
+                            <span class="service-duration">⏱ 1.5 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">2500 ₽</span>
+                        <a href="booking.html?service=facial" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+                
+               
+
+                <div class="service-item" id="facial-massage">
+                    <div class="service-header">
+                        <img src="images/facial-massage.jpg" alt="Массаж лица" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Массаж лица</h3>
+                            <p>Расслабляющий и лимфодренажный массаж для тонуса кожи</p>
+                            <span class="service-duration">⏱ 1 час</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1500 ₽</span>
+                        <a href="booking.html?service=facial-massage" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="peeling-service">
+                    <div class="service-header">
+                        <img src="images/peeling-service.jpg" alt="Пилинг" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Пилинг лица</h3>
+                            <p>Глубокое очищение и обновление кожи с помощью пилинга</p>
+                            <span class="service-duration">⏱ 1 час</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">2000 ₽</span>
+                        <a href="booking.html?service=peeling" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Брови и ресницы -->
+              
+            <div class="service-category" id="brows-lashes-services">
+                <h2>✏️ Брови и ресницы</h2>
+                
+                <div class="service-item" id="brows-lamination">
+                    <div class="service-header">
+                        <img src="images/brows-lamination.jpg" alt="Ламинирование бровей" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Ламинирование бровей</h3>
+                            <p>Придание идеальной формы и ухоженного вида бровям</p>
+                            <span class="service-duration">⏱ 1 час</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1500 ₽</span>
+                        <a href="booking.html?service=brows-lamination" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="lashes-extension">
+                    <div class="service-header">
+                        <img src="images/lashes-extension.jpg" alt="Наращивание ресниц" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Наращивание ресниц</h3>
+                            <p>Классическое, 2D или 3D наращивание ресниц</p>
+                            <span class="service-duration">⏱ 2 часа</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">2500 ₽</span>
+                        <a href="booking.html?service=lashes-extension" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="lashes-lamination">
+                    <div class="service-header">
+                        <img src="images/lashes-lamination.jpg" alt="Ламинирование ресниц" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Ламинирование ресниц</h3>
+                            <p>Эффект завитых и густых ресниц без наращивания</p>
+                            <span class="service-duration">⏱ 1 час</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1800 ₽</span>
+                        <a href="booking.html?service=lashes-lamination" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+
+                <div class="service-item" id="brows-correction">
+                    <div class="service-header">
+                        <img src="images/brows-correction.jpg" alt="Коррекция бровей" class="service-image-small">
+                        <div class="service-info">
+                            <h3>Коррекция и окрашивание бровей</h3>
+                            <p>Комплексный уход за бровями с коррекцией формы</p>
+                            <span class="service-duration">⏱ 45 минут</span>
+                        </div>
+                    </div>
+                    <div class="service-actions">
+                        <span class="service-price">1200 ₽</span>
+                        <a href="booking.html?service=brows-correction" class="btn btn-primary">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Салон красоты "Элегант"</h3>
+                    <p>Ваша красота - наша профессия</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>📍 г. Москва, ул. Красоты, 15</p>
+                    <p>📞 +7 (999) 123-45-67</p>
+                    <p>✉️ info@elegant.ru</p>
+                </div>
+                <div class="footer-section">
+                    <h4>График работы</h4>
+                    <p>Пн-Пт: 9:00 - 21:00</p>
+                    <p>Сб-Вс: 10:00 - 20:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Салон красоты "Элегант". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
